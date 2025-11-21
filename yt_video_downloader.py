@@ -55,7 +55,7 @@ def download_video():
             try:
 
                 height_val = res.replace("p", "")
-                ffmpeg_path = r"D:\Drashti\python programming\ffmpeg-2025-11-17-git-e94439e49b-full_build\bin"
+                ffmpeg_path = r"YOUR_FFMEG_PATH"
                 # yt-dlp download options
                 ydl_opts = {
                     "ffmpeg_location": ffmpeg_path,   # REQUIRED 
@@ -114,7 +114,7 @@ canvas = Canvas(frame, width=600, height=500)
 canvas.pack()
 
 # loading the logo
-logo = PhotoImage(file='python programming\\image\\old-youtube-logo-2013-2017-d01f.png')
+logo = PhotoImage(file='YOUR_IMG_PATH\old-youtube-logo-2013-2017-d01f.png')
 # creates dimensions of the logo
 logo = logo.subsample(10, 10)
 # adding the logo to the canvas
