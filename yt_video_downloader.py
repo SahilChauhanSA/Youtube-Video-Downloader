@@ -114,7 +114,7 @@ canvas = Canvas(frame, width=600, height=500)
 canvas.pack()
 
 # loading the logo
-logo = PhotoImage(file='YOUR_IMG_PATH\old-youtube-logo-2013-2017-d01f.png')
+logo = PhotoImage(file='YOUR_IMG_PATH')#paste your image path here
 # creates dimensions of the logo
 logo = logo.subsample(10, 10)
 # adding the logo to the canvas
